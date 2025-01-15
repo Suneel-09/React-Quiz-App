@@ -43,6 +43,7 @@ const Question = ({
   const handleQuit = () => {
     setCurrQues(0);
     setQuestions();
+    history.push("/");
   };
 
   return (
@@ -71,8 +72,7 @@ const Question = ({
             color="secondary"
             size="large"
             style={{ width: 185 }}
-            href="/"
-            onClick={() => handleQuit()}
+            onClick={handleQuit}
           >
             Quit
           </Button>

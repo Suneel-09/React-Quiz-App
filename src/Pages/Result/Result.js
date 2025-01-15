@@ -12,6 +12,10 @@ const Result = ({ name, score }) => {
     }
   }, [name, history]);
 
+  const handleHome = () => {
+    history.push("/");
+  };
+
   return (
     <div className="result">
       <span className="title">Final Score : {score}</span>
@@ -20,12 +24,10 @@ const Result = ({ name, score }) => {
         color="secondary"
         size="large"
         style={{ alignSelf: "center", marginTop: 20 }}
-        href="/"
+        onClick={handleHome}
       >
         Go to homepage
       </Button>
     </div>
   );
 };
-
-export default Result;
