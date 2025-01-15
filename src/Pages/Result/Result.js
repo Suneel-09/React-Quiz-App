@@ -31,3 +31,5 @@ const Result = ({ name, score }) => {
     </div>
   );
 };
+
+export default Result;
