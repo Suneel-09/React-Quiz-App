@@ -6,12 +6,12 @@ const Footer = () => {
         marginBottom: 10,
       }}
     >
-      Made with ♥ by{" "}
+      Create by{"Suneel Kumar"}
       <a
-        href="https://www.youtube.com/roadsidecoder"
+        href="https://www.linkedin.com/in/katikala-suneel-kumar-94536b24a"
         style={{ cursor: "pointer" }}
       >
-        Roadside Coder
+        Suneel Kumar
       </a>
     </div>
   );
